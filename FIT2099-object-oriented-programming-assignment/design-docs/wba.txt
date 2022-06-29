@@ -1,0 +1,76 @@
+Work Breakdown Agreement
+
+Assignment 1 - FIT2099
+
+Priscilla Tham Ai Ching (28390121):
+
+1. Class diagram
+
+Reviewed By: Koay Wen Jian (28900901)
+
+
+Koay Wen Jian (28900901):
+
+1. Interaction diagram
+
+Reviewed By: Priscilla Tham Ai Ching (28390121)
+
+
+Design rationale workload will be divided 50/50 among members.
+
+
+Deadline: 13/09/2019
+
+
+Accepted By:
+1. Priscilla Tham Ai Ching (28390121)
+2. Koay Wen Jian (28900901)
+
+
+Assignment 2 
+
+Priscilla Tham Ai Ching (28390121)
+
+1. Velociraptors
+2. Buying and Selling
+
+Reviewed By: Koay Wen Jian (28900901)
+
+Koay Wen Jian (28900901)
+
+1. Growing plants
+2. Hungry Dinosaurs
+3. Baby Dinosaurs
+
+Reviewed By: Priscilla Tham Ai Ching (28390121)
+
+Deadline: 04/10/2019
+
+Accepted By: 
+1. Priscilla Tham Ai Ching (28390121)
+2. Koay Wen Jian (28900901)
+
+
+Assignment 3 
+
+Priscilla Tham Ai Ching (28390121)
+
+1. Tyrannosaurus Rex
+2. Plesiosaurs
+3. Ending the game
+
+Reviewed By: Koay Wen Jian (28900901)
+
+Koay Wen Jian (28900901)
+
+1. Marine ecology
+2. Extending Park
+3. Pteranodons
+
+Reviewed By: Priscilla Tham Ai Ching (28390121)
+
+Deadline: 25/10/2019
+
+Accepted By: 
+1. Priscilla Tham Ai Ching (28390121)
+2. Koay Wen Jian (28900901)

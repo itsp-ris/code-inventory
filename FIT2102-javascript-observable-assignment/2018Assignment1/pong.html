@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pong</title>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+        </style>
+        <script src="svgelement.js"></script>
+        <script src="observable.js"></script>
+        <script src="pong.js"></script>
+    </head>
+    <body>
+        <h1>PONG</h1>
+        <p><i>by Priscilla Tham (28390121)</i><p>
+        <div class="instruction">
+            <h1 style="margin: 10px;">Intro and Guides</h1>
+            <p>
+                This is a Observable utilised javascript Pong.
+                <br><br>
+                Player moves up and down using the mouse.<br>
+                <b style="color:#ffd700">Q</b> can be used to abandon the game.
+            </p>
+            <br>
+            <button id="classic-mode" class="blink" name="Classic" style="left: 5%"><label for="Classic">Classic Mode</label></button>
+            <button id="crazy-mode" class="blink" name="Crazy" style="left: 50%"><label for="Crazy">Crazy Mode</label></button>
+            <br>
+            <h1>Stats</h1>
+            <p>User: <b id="user-stats">0</b> wins<br>
+            AI: <b id="ai-stats">0</b> wins</p>
+        </div>
+        <svg id="canvas" width="600" height="600">
+            <line x1="300" y1="10" x2="300" y2="590" stroke="#fff" stroke-width ="10" stroke-dasharray="30 20"/>
+            <text id="playerLeft" x="140" y="80" width="40" height="40" fill="#fff">0</text>
+            <text id="playerRight" x="440" y="80" fill="#fff">0</text>
+        </svg>
+        <div id="restart-backdrop">
+			<div id="game-over">
+	            <h1>Game Over</h1>
+	            <p><b id="player"></b> wins!<br>The game will restart in 3 seconds.</p>
+			</div>
+        </div>
+        <div id="backdrop">
+            <div id="popup">
+                <h1>You have abandoned the game</h1>
+                <p>Reload the page to play again.</p>
+            </div>
+        </div>
+        
+    </body>
+</html>

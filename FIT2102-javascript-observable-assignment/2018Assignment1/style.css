@@ -1,0 +1,123 @@
+BODY, H2, H3, H4, H5, H6, TH, TD {
+    background-color: #000;
+    color: #fff;
+    font-family: Times;
+    text-align: center;
+}
+
+H1 {
+    color: #fff;
+    font-family: Times;
+    font-size: 60px;
+    text-align: center;
+}
+
+#canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playerLeft, #playerRight {
+    font-family: "Agency FB";
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.instruction {
+    width: 300px;
+    height: 600px;
+    background-color: rgb(41, 41, 36);
+    position: absolute;
+    margin-left: 2px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+}
+
+.instruction p {
+    color: #c0c0c0;
+    font-family: "Calibri";
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.instruction button {
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    color: #000;
+    font-family: "Agency FB";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.instruction H1 {
+    color: #fff;
+    font-family: "Agency FB";
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 50px 10px 10px 10px;
+}
+
+.blink {
+    -webkit-animation: glowing 1.5s linear infinite;
+	animation: glowing 1.5s linear infinite;
+}
+
+#game-over, #popup {
+    width: 28rem;
+    display: none;
+    top: 50%;
+    position: relative;
+    background-color: #000;
+    margin: auto;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 10px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#game-over h1, #popup h1 {
+    color: #fff;
+    font-family: "Agency FB";
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#game-over p, #popup p {
+    color: #fff;
+    font-family: "Agency FB";
+    text-align: center;
+}
+
+#restart-backdrop, #backdrop {
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);  
+    display: none;
+    top: 0;
+    left: 0;
+    position: fixed; 
+    z-index: 100; 
+}
+
+@-webkit-keyframes glowing {
+	0% {-webkit-box-shadow: 0 0 3px #fff;}
+	50% {-webkit-box-shadow: 0 0 50px #fff;}
+	100% {-webkit-box-shadow: 0 0 3px #fff;}
+}
+
+@keyframes glowing {
+	0% {box-shadow: 0 0 3px #fff;}
+	50% {box-shadow: 0 0 50px #fff;}
+	100% {box-shadow: 0 0 3px #fff;}
+}
