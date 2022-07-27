@@ -73,8 +73,12 @@ common, uncommon or rare within written English.
 <br />What factors may drive the differences?
 <br />How close can you get to the reference implementation?
 
+<br />
+
 **Application Development Tools**
 1. PyCharm
+
+<br />
 
 <i>A little backstory:
 A lot of the students had other assignments piling in along with this one. 
