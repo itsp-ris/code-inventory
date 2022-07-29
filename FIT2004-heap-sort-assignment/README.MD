@@ -23,7 +23,7 @@ a word. <br />The upper bound of the input size is O(nm).
     4) Show the k top-most words appears in the file: If the count of two words are the same, 
     the word comes earlier in the sorted list will have higher priority over another; 
     <br />worst time and space complexity allowed: O(n log k) and O(km) respectively.
-5. Do not use hashing and python deictionary.
+5. Do not use hashing and python dictionary.
 
 <br />
 
