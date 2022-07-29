@@ -73,4 +73,4 @@ to determine the cheapest path from the intermediate graph to connect the other 
 <br />
 
 **Application Development Tools**
-1. PyCharm
+1. Python IDE
