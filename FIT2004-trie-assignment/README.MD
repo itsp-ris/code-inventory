@@ -47,9 +47,9 @@ database.txt will be O(NM).
 2. The function returns a lists of lists, where each inner list will contain two values.
 <br /> The first value will be a substring with length >1 whose reverse exists in the string, 
 and the second value will be the index of that substring in the input text.
-3. The function should run in O(K2 + P), where K is the total number of characters in the input
+3. The function should run in O(K^2 + P), where K is the total number of characters in the input
 string and P is the total length of all substrings whose reverse appears in the string. 
-<br />The space complexity should be O(K2 + P).
+<br />The space complexity should be O(K^2 + P).
 
 <br />
 
